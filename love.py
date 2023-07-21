@@ -11,10 +11,17 @@ def amor():
                     unsafe_allow_html=True)
         st.markdown("<p style='text-align: justify; color: #750202;'> Acurácia: 100% (❤️) </p>",
                     unsafe_allow_html=True)
-    
+
 st.set_page_config(page_icon='❤️', page_title='Com amor', layout='wide')
 st.markdown("<h1 style='text-align: center; color: #fc0345; font-size: 42px'> Uma carta de amor </h1>",
             unsafe_allow_html=True)
+st.markdown("""
+        <style>
+            .stApp {
+                background-color: white;
+                background-size: cover;
+            }
+        </style>""",unsafe_allow_html=True)  
 st.markdown("<p style='text-align: center; color: #fc0345;'> De Victor para Cecília </p>",
             unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #fc0345; font-size: 22px'> Interesse é o primeiro estágio, onde nasce a curiosidade e atração. A paixão é intensa e avassaladora, marcada por emoções arrebatadoras. Já o amor é o ápice, uma conexão profunda, calma e duradoura, que transcende a paixão, revelando um sentimento sereno e verdadeiro. </p>",
