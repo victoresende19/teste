@@ -111,11 +111,11 @@ with col2:
         amor()
 with col3:
     st.write('')
-st.markdown("<p style='text-align: justify; color: #750202;'> Você é uma pessoa maravilhosa, em todas as áreas da vida, tenho muito orgulho e me inspiro em suas atitudes, das quais me ensinaram bastante. Eu espero que possamos realizar nossos sonhos juntos, viver momentos inesquecíveis e que as coisas se ajeitem, afinal eu te amo e quero poder cuidar de você, confortar em momentos de dificuldade e comemorar os momentos de alegrias. </p>",
+st.markdown("<p style='text-align: justify; color: #750202; font-size: 22px'> Você é uma pessoa maravilhosa, em todas as áreas da vida, tenho muito orgulho e me inspiro em suas atitudes, das quais me ensinaram bastante. Eu espero que possamos realizar nossos sonhos juntos, viver momentos inesquecíveis e que as coisas se ajeitem, afinal eu te amo e quero poder cuidar de você, confortar em momentos de dificuldade e comemorar os momentos de alegrias. </p>",
             unsafe_allow_html=True)
-st.markdown("<p style='text-align: justify; color: #750202;'> Não precisamos estressar por coisas bobas, no final o nosso amor é maior do que elas, do qual tenho certeza que éramos muito felizes juntos. Eu sempre estarei disposto e disponível a te escutar, diálogar, absorver e pronto a mudar caso necessário, afinal você é importante e especial pra mim, o amor da minha vida. </p>",
+st.markdown("<p style='text-align: justify; color: #750202; font-size: 22px'> Não precisamos estressar por coisas bobas, no final o nosso amor é maior do que elas, do qual tenho certeza que éramos muito felizes juntos. Eu sempre estarei disposto e disponível a te escutar, diálogar, absorver e pronto a mudar caso necessário, afinal você é importante e especial pra mim, o amor da minha vida. </p>",
             unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: #750202;'> ❤️❤️ Te amo ❤️❤️ </h2>",
+st.markdown("<h2 style='text-align: center; color: #750202; font-size: 22px'> ❤️❤️ Te amo ❤️❤️ </h2>",
             unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: justify; color: #750202;'> P.S: Leia a carta física também </h2>",
+st.markdown("<h2 style='text-align: justify; color: #750202; font-size: 22px'> P.S: Leia a carta física também </h2>",
             unsafe_allow_html=True)
