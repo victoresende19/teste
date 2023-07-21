@@ -15,7 +15,7 @@ def amor():
                     unsafe_allow_html=True)
     
 
-st.set_page_config(page_icon='❤️', page_title='Te amo', layout='wide')
+st.set_page_config(page_icon='❤️', page_title='Com amor', layout='wide')
 st.markdown("<h1 style='text-align: center; color: #fc0345; font-size: 42px'> Uma carta de amor </h1>",
             unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #fc0345;'> De Victor para Cecília </p>",
