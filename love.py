@@ -21,6 +21,9 @@ st.markdown("""
                 background-color: white;
                 background-size: cover;
             }
+            .streamlit-expanderHeader {
+                color: black !important;
+            }
         </style>""",unsafe_allow_html=True)  
 st.markdown("<p style='text-align: center; color: #fc0345;'> De Victor para Cecília </p>",
             unsafe_allow_html=True)
