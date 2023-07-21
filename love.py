@@ -34,7 +34,7 @@ with col1:
     st.write('')
 with col2:
     expanderAbout = st.expander( 
-    label="❤️ Do maior poeta para a minha poeta preferida: Quando ela fala, de Machado de Assis ❤️")
+    label="❤️ Do maior poeta para a minha poeta preferida: Quando ela fala, de Machado de Assis ❤️ (clique aqui)")
     expanderAbout.markdown(
         """<p style='text-align: center; color: #fc0345; font-size: 18px'>
             Quando ela fala, parece <br>
