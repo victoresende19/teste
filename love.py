@@ -27,7 +27,7 @@ st.markdown("""
         </style>""",unsafe_allow_html=True)  
 st.markdown("<p style='text-align: center; color: #fc0345;'> De Victor para Cecília </p>",
             unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: #fc0345; font-size: 22px'> Interesse é o primeiro estágio, onde nasce a curiosidade e atração. A paixão é intensa e avassaladora, marcada por emoções arrebatadoras. Já o amor é o ápice, uma conexão profunda, calma e duradoura, que transcende a paixão, revelando um sentimento sereno e verdadeiro. </p>",
+st.markdown("<p style='text-align: center; color: #fc0345; font-size: 22px'> Atração é o primeiro estágio, onde nasce a curiosidade e atração. A paixão é intensa e avassaladora, marcada por emoções arrebatadoras. Já o amor é o ápice, uma conexão profunda, calma e duradoura, que transcende a paixão, revelando um sentimento sereno e verdadeiro. </p>",
             unsafe_allow_html=True)
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -62,9 +62,9 @@ col4, col1, col2, col3, col5 = st.columns(5)
 with col4:
     st.write('')
 with col1:
-   st.markdown("<h2 style='text-align: center; color: #fc0345;'> Interesse </h2>",
+   st.markdown("<h2 style='text-align: center; color: #fc0345;'> Atração </h2>",
                unsafe_allow_html=True)
-   st.markdown("<p style='text-align: justify; color: #fc0345; font-size: 22px'> O interesse é a semente que floresce em um relacionamento duradouro. Ele nos impulsiona a conhecer o outro, compreender suas nuances e cultivar uma conexão genuína. Lembro-me quando começamos a conversar no meu aniversário, realmente acredito que foi um presente de Deus, uma pessoa tão linda, engraçada, maravilhosa, disposta a sair, conhecer coisas novas ou até mesmo jogar, isso me conquistou de maneira tão profunda que já sentia-me viciado em sua companhia. Lembro do nosso primeiro encontro, da primeira vez que segurei sua bolsa, da primeira vez que te dei flores, da primeira vez que fui a sua casa, do nosso primeiro sorriso e do nosso primeiro beijo no CCBB, onde possívelmente brincamos quando crianças em passeios da escola. </p>",
+   st.markdown("<p style='text-align: justify; color: #fc0345; font-size: 22px'> A atração é a semente que floresce em um relacionamento duradouro. Ele nos impulsiona a conhecer o outro, compreender suas nuances e cultivar uma conexão genuína. Lembro-me quando começamos a conversar no meu aniversário, realmente acredito que foi um presente de Deus, uma pessoa tão linda, engraçada, maravilhosa, disposta a sair, conhecer coisas novas ou até mesmo jogar, isso me conquistou de maneira tão profunda que já sentia-me viciado em sua companhia. Lembro do nosso primeiro encontro, da primeira vez que segurei sua bolsa, da primeira vez que te dei flores, da primeira vez que fui a sua casa, do nosso primeiro sorriso e do nosso primeiro beijo no CCBB, onde possívelmente brincamos quando crianças em passeios da escola. </p>",
                unsafe_allow_html=True)
    
 with col2:
