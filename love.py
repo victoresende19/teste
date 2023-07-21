@@ -23,29 +23,35 @@ st.markdown("<p style='text-align: center; color: #fc0345;'> De Victor para Cec�
 st.markdown("<p style='text-align: center; color: #fc0345; font-size: 22px'> Interesse é o primeiro estágio, onde nasce a curiosidade e atração. A paixão é intensa e avassaladora, marcada por emoções arrebatadoras. Já o amor é o ápice, uma conexão profunda, calma e duradoura, que transcende a paixão, revelando um sentimento sereno e verdadeiro. </p>",
             unsafe_allow_html=True)
 
-expanderAbout = st.expander( 
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('')
+with col2:
+    expanderAbout = st.expander( 
     label="❤️ Do maior poera para a minha poeta preferida ❤️")
-expanderAbout.markdown(
-    """<p style='text-align: center; color: #fc0345; font-size: 18px'>
-        Quando ela fala, parece <br>
-        Que a voz da brisa se cala; <br>
-        Talvez um anjo emudece <br>
-        Quando ela fala. <br><br>
-        Meu coração dolorido <br>
-        As suas mágoas exala, <br>
-        E volta ao gozo perdido <br>
-        Quando ela fala. <br><br>
-        Pudesse eu eternamente, <br>
-        Ao lado dela, escutá-la, <br>
-        Ouvir sua alma inocente <br>
-        Quando ela fala. <br><br>
-        Minha alma, já semimorta, <br>
-        Conseguira ao céu alçá-la <br>
-        Porque o céu abre uma porta <br>
-        Quando ela fala. <br><br>
-        Quando ela fala, de Machado de Assis
-    </p>""",
-    unsafe_allow_html=True)
+    expanderAbout.markdown(
+        """<p style='text-align: center; color: #fc0345; font-size: 18px'>
+            Quando ela fala, parece <br>
+            Que a voz da brisa se cala; <br>
+            Talvez um anjo emudece <br>
+            Quando ela fala. <br><br>
+            Meu coração dolorido <br>
+            As suas mágoas exala, <br>
+            E volta ao gozo perdido <br>
+            Quando ela fala. <br><br>
+            Pudesse eu eternamente, <br>
+            Ao lado dela, escutá-la, <br>
+            Ouvir sua alma inocente <br>
+            Quando ela fala. <br><br>
+            Minha alma, já semimorta, <br>
+            Conseguira ao céu alçá-la <br>
+            Porque o céu abre uma porta <br>
+            Quando ela fala. <br><br>
+            Quando ela fala, de Machado de Assis
+        </p>""",
+        unsafe_allow_html=True)
+with col3:
+    st.write('')
 
 col4, col1, col2, col3, col5 = st.columns(5)
 
