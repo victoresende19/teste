@@ -4,6 +4,8 @@
 """
 import streamlit as st
 import time
+from PIL import Image
+
 def amor():
     with st.spinner('Calculando...'):
         time.sleep(5)
@@ -11,8 +13,11 @@ def amor():
                     unsafe_allow_html=True)
         st.markdown("<p style='text-align: justify; color: #750202;'> Acurácia: 100% (❤️) </p>",
                     unsafe_allow_html=True)
+audio_file = open('./assets/OnMelancholyHill.ogg', 'rb')
+audio_bytes = audio_file.read()
+image = Image.open('./assets/Pillars_HstBibillo_1097.jpg')
 
-st.set_page_config(page_icon='❤️', page_title='Com amor', layout='wide')
+st.set_page_config(page_icon='❤️', page_title='Com amor para meu amor', layout='wide')
 st.markdown("<h1 style='text-align: center; color: #fc0345; font-size: 42px'> Uma carta de amor </h1>",
             unsafe_allow_html=True)
 st.markdown("""
@@ -27,6 +32,7 @@ st.markdown("""
         </style>""",unsafe_allow_html=True)  
 st.markdown("<p style='text-align: center; color: #fc0345;'> De Victor para Cecília </p>",
             unsafe_allow_html=True)
+st.audio(audio_bytes, format='audio/ogg')
 st.markdown("<p style='text-align: center; color: #fc0345; font-size: 22px'> Atração é o primeiro estágio, onde nasce a curiosidade e atração. A paixão é intensa e avassaladora, marcada por emoções arrebatadoras. Já o amor é o ápice, uma conexão profunda, calma e duradoura, que transcende a paixão, revelando um sentimento sereno e verdadeiro. </p>",
             unsafe_allow_html=True)
 col1, col2, col3 = st.columns(3)
@@ -118,6 +124,17 @@ st.markdown("<p style='text-align: justify; color: #750202; font-size: 22px'> N�
 st.markdown("<p style='text-align: justify; color: #750202; font-size: 22px'> Quero poder me entregar ao nosso amor, te chamar de mozi, te levar para lugares incríveis, sentir seu beijo, sentir seu toque, dormir com você, fazer coisas do nada, quero poder te farejar, sentir-me e fazer-te feliz ao olhar no fundo dos seus lindos olhos.  </p>",
             unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: #750202; font-size: 22px'> ❤️❤️ Te amo ❤️❤️ </h2>",
+            unsafe_allow_html=True)
+st.markdown("<p style='text-align: justify; color: #750202; font-size: 22px'> Essa foto foi tirada no dia 14/03/2023, quando fomos àquele concerto do Debussy e te pedi em namoro no carro. De acordo com a NASA, essa imagem pôde ser encontrada na direção da constelação de Cassiopeia, a quem a mitologia grega credita como a vaidosa esposa de um rei que há muito tempo governou as terras ao redor do alto rio Nilo. Além disso, de acordo com a mitologia grega, ela foi imortalizada como uma constelação não apenas por sua beleza e vaidade, mas também por causa do profundo amor que tinha por seu marido, o rei Cepheus. O amor entre eles era tão poderoso que os deuses decidiram eternizá-la no céu, ao lado do amado Cepheus e da filha Andrômeda, formando uma das constelações mais brilhantes e marcantes no céu noturno. </p>",
+            unsafe_allow_html=True)
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('')
+with col2:
+    st.image(image, width=600)
+with col3:
+    st.write('') 
+st.markdown("<p style='text-align: justify; color: #750202; font-size: 22px'> Sempre que estou ao seu lado sinto-me o mais radiante (assim como a nebulosa acima), realizado e feliz, sua companhia me faz muito bem e espero que esteja conseguindo te demonstrar isso. Eu nos considero um casal muito lindo e feliz, pois além do nosso amor, somos ótimos amigos, motivo do qual torna nossa convivência tranquila e feliz. Eu te amo e amo ser amado por você!  </p>",
             unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: justify; color: #750202; font-size: 22px'> P.S: Leia a carta física também </h2>",
             unsafe_allow_html=True)
